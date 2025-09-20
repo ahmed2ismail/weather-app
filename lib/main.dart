@@ -1,14 +1,20 @@
 /*
 lib/
+│
 ├── main.dart
-├── core/         # ثوابت و Utilities
-├── features/
-│   ├── auth/     # تسجيل الدخول
-│   ├── weather/  # الطقس
-│   ├── favorites/
-│   └── settings/
-├── services/     # API, Firebase
-└── widgets/
+│
+├── screens/
+│   ├── splash_screen.dart
+│   ├── home_screen.dart
+│   ├── weather_details_screen.dart
+│   └── favorites_screen.dart
+│
+├── widgets/
+│   ├── weather_card.dart
+│   └── city_input.dart
+│
+└── services/
+    └── weather_service.dart
 --------------------------- ###### -------------------------------
 📝 شرح الملفات :
 main.dart → نقطة البداية + routes.

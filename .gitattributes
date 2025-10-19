@@ -1,0 +1,7 @@
+# Ignore platform-specific code when detecting language
+android/** linguist-vendored
+ios/** linguist-vendored
+linux/** linguist-vendored
+macos/** linguist-vendored
+windows/** linguist-vendored
+web/** linguist-vendored

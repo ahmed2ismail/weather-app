@@ -5,3 +5,8 @@ linux/** linguist-vendored
 macos/** linguist-vendored
 windows/** linguist-vendored
 web/** linguist-vendored
+# بعد كده اعمل commit و push  من التيرمينال:
+
+# git add .gitattributes
+# git commit -m "Fix GitHub language detection"
+# git push
